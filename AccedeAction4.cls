@@ -55,9 +55,9 @@ public without sharing class AccedeAction {
         appItem.LendingProduct__c = lendingProductId;
         appItem.OriginationProcess__c = originationProcessId;
         appItem.ApplicationStatus__c = mapAppStatus.get(appItem.ApplicationStatusName__c);
-        //update appItem;
+        update appItem;
 
-    //1
+    
     }
 
 }
